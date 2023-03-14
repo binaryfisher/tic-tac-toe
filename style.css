@@ -1,0 +1,39 @@
+
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(228, 224, 224);
+}
+.board-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.game-board{
+    height: 450px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+   
+}
+
+.cell{
+    border: 2px solid rgb(190, 186, 194);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
